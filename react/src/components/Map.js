@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import CSSModules from 'react-css-modules'
 import styles from './Map.css'
 
-import {GoogleMapLoader, GoogleMap, Marker} from "react-google-maps";
-
 class Map extends Component {
 
   constructor (props, context) {
